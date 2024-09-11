@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -11,10 +11,11 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container mt-2">
+
     <div class="card text">
-      <div class="card-header fs-4 .text-danger-emphasis py-1">
-        <strong> Paymen For example </strong>
+      <div class="card-header fs-4 text-danger-emphasis py-1">
+        <strong> Payment For example </strong>
       </div>
       <div class="card-body">
         <div class="alert alert-danger py-1 fs-6" role="alert">
@@ -30,99 +31,106 @@
               <fieldset class="col-md-4">
                 <label for="disabledTextInput" class="form-label mb-1 mt-2">CVC#</label>
                 <input type="text" id="disabledTextInput" class="form-control" placeholder="0000">
-              </fieldset>        
+              </fieldset>
               <fieldset class="col-md-4">
-                <label for="disabledTextInput" class="form-label ms-2 mb-1 mt-2">Amount</label>
+                <label for="disabledTextInput" class="form-label mb-1 mt-2">Amount</label>
                 <div class="d-flex">
                   <i class="fas fa-dollar-sign mt-2"></i>
                   <input type="text" id="disabledTextInput" class="form-control" placeholder="Amount">
                 </div>
-</fieldset>
+              </fieldset>
             </div>
-        </div>
-        <div class="d-flex justify-content-start">
-          <div class="container">
-            <fieldset>
-              <label for="disabledTextInput" class="form-label mb-1 mt-2 ">City</label>
-              <input type="text" id="disabledTextInput" class="form-control">
-            </fieldset>
+            <!-- </div> -->
+            <div class="d-flex justify-content-start">
+              <div class="container">
+                <fieldset>
+                  <label for="disabledTextInput" class="form-label mb-1 mt-2 ">City</label>
+                  <input type="text" id="disabledTextInput" class="form-control">
+                </fieldset>
 
-            <fieldset>
-              <label for="disabledTextInput pb-2" class="form-label mb-2 mt-3">Frist Name</label>
-              <input type="text" id="disabledTextInput" class="form-control">
-            </fieldset>
-            <fieldset>
-              <label for="disabledTextInput pb-2" class="form-label mb-1 mt-3">We accept</label>
+                <fieldset>
+                  <label for="disabledTextInput pb-2" class="form-label mb-2 mt-3">Frist Name</label>
+                  <input type="text" id="disabledTextInput" class="form-control">
+                </fieldset>
 
-              <div class="p-2 bg-secondary text-white d-flex .justify-content-start col-md-5">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    <i class="fab fa-cc-visa me-2 pe-1"></i>
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    <i class="fab fa-cc-diners-club me-2 pe-1"></i>
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    <i class="fab fa-cc-visa me-2 pe-1"></i>
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    <i class="fab fa-cc-mastercard pe-1"></i>
-                  </label>
-                </div>
+                <fieldset>
+                  <label for="disabledTextInput pb-2" class="form-label mb-1 mt-3">We accept</label>
+                  <div class="p-2 bg-secondary text-white d-flex .justify-content-start col-md-5">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        <i class="fab fa-cc-visa me-2 pe-1"></i>
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        <i class="fab fa-cc-diners-club me-2 pe-1"></i>
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        <i class="fab fa-cc-visa me-2 pe-1"></i>
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        <i class="fab fa-cc-mastercard pe-1"></i>
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
               </div>
 
-          </div>
-          <div class="container">
-            <fieldset>
-              <label for="disabledTextInput" class="form-label mb-1 mt-2">Last Name</label>
-              <input type="text" id="disabledTextInput" class="form-control">
-            </fieldset>
-            <div class="d-flex justify-content-between row">
-              <fieldset class="col-md-6">
-                <label for="disabledTextInput" class="form-label mb-1 mt-2">State</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Pick State</option>
-                  <option value="1">Soriano</option>
-                  <option value="2">Colonia</option>
-                  <option value="3">Three</option>
-                </select>
-              </fieldset>
-              <fieldset class="col-md-6">
-                <label for="disabledTextInput" class="form-label mb-1 mt-2">Postal Code</label>
-                <input type="text" id="disabledTextInput" class="form-control">
-              </fieldset>
+              <div class="container">
+                <fieldset>
+                  <label for="disabledTextInput" class="form-label mb-1 mt-2">Last Name</label>
+                  <input type="text" id="disabledTextInput" class="form-control">
+                </fieldset>
+                <div class="d-flex justify-content-between row">
+                  <fieldset class="col-md-6">
+                    <label for="disabledTextInput" class="form-label mb-1 mt-2">State</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Pick State</option>
+                      <option value="1">Soriano</option>
+                      <option value="2">Colonia</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </fieldset>
+                  <fieldset class="col-md-6">
+                    <label for="disabledTextInput" class="form-label mb-1 mt-2">Postal Code</label>
+                    <input type="text" id="disabledTextInput" class="form-control">
+                  </fieldset>
+                </div>
+                <fieldset>
+                  <label for="disabledTextInput" class="form-label mb-1 mt-2">Message</label>
+                  <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                </fieldset>
+              </div>
+
             </div>
-            <fieldset>
-              <label for="disabledTextInput" class="form-label mb-1 mt-2">Message</label>
-              <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
-            </fieldset>
-          </div>
-        </div>
-        </form>
-        <!-- botones -->
-        <div class="card-button">
-          <span class="border border-light-subtle">
-            <div class="modal-footer mt-3 me-2">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal fs-6">Cancel</button>
-              <button type="button" class="btn btn-primary menu fs-6 mx-2">Send</button>
-            </div>
-          </span>
+          </form>
         </div>
       </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+      <!-- botones -->
+      <div class="card-footer text-body-secondary d-flex justify-content-end">
+        <!-- <span class="border border-light-subtle"> -->
+        <!-- <div class="modal-footer mt-3 me-2"> -->
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal fs-6">Cancel</button>
+        <button type="button" class="btn btn-primary menu fs-6 mx-2">Send</button>
+        <!-- </div> -->
+        <!-- </span> -->
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
